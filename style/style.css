@@ -1,0 +1,126 @@
+/*
+color combo
+
+	Dark Color : #354458	
+	Light Color : #3A9AD9	
+
+combo 2
+	Dark Color : #EB7260
+	Light Color : #E9E0D6	
+
+*/	
+html {
+  font-family: 'Open Sans', Helvetica, arial, sans-serif;
+  /*background-color: #eeeeee;*/
+}
+body{
+	background-color: #E9E0D6 !important;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+a{
+	text-decoration: none !important;
+}
+
+
+/*			Custom Designing			*/
+
+/*1st menu tiles effect position bottom left*/
+
+.my-btn-effect {
+  	position: relative;
+  	display: block;
+  	overflow: hidden;
+  	text-transform: uppercase;
+  	border: 0px solid #3741ac;
+	color: #3741ac;
+
+}
+
+.my-btn-effect span{
+	position: absolute;
+  	display: block;
+  	width: 0;
+  	height: 0;
+  	border-radius: 80%;
+  	background-color: #0c135e;
+  	transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: -1;
+
+}
+
+.col-*-*{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.my-btn-effect:hover{
+	color: #c4c7e7;
+}
+.my-btn-effect:hover span{
+	width: 225%;
+  	height: 900px;
+}
+
+	/*custom "a" tag*/
+.my-a {
+  	line-height: 150px;
+  	color: black;
+  	font-size: 45px;
+}
+.panel{
+	transition: all 2s ease;
+}
+.panel:hover{
+	background-color: #337AB7;	
+}
+
+
+
+
+/*			Responsive code			*/
+
+@media (min-width: 576px)
+{
+
+}
+
+@media (min-width: 768px)
+{
+
+}
+
+@media (min-width: 992px)
+{
+
+}
+
+@media (min-width: 1200px)
+{
+
+}
+
+
+/*			Responsive for mobile			*/
+
+@media (min-width: 575.98px)
+{
+
+}
+
+@media (min-width: 767.98px)
+{
+
+}
+
+@media (min-width: 991.98px)
+{
+
+}
+
+@media (min-width: 1199.98px)
+{
+
+}
